@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://tomamu.com/sitemap.xml
