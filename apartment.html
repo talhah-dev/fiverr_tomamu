@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Home</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.1/dist/lenis.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="stylesheet" href="./docs/Style.css" />
+
+</head>
+
+<body>
+
+
+    <main>
+        <div id="navbar"></div>
+
+
+        <section class="w-full md:py-16 py-10 px-4 bg-white" id="apartment-section">
+            <div class="max-w-6xl mx-auto grid  lg:grid-cols-2 md:gap-5 gap-8 items-center">
+
+                <div class="opacity-0 translate-y-4 animate-fade-in" style="animation-delay: 0.1s;">
+                    <h2 class="text-3xl md:text-4xl font-bold text-[#072b5e] mb-4">The Apartment</h2>
+                    <p class="text-slate-700 leading-relaxed mb-6">
+                        A cozy and functional top floor loft with everything you need for a comfortable stay.
+                    </p>
+                    <ul class="space-y-6">
+                        <li class="flex items-center gap-3 text-slate-700">
+                            <span
+                                class="w-8 h-8 flex items-center justify-center rounded-lg bg-[#072b5e]/10 text-[#072b5e]"><i
+                                    class="fas fa-home"></i></span>
+                            Top Floor Loft
+                        </li>
+                        <li class="flex items-center gap-3 text-slate-700">
+                            <span
+                                class="w-8 h-8 flex items-center justify-center rounded-lg bg-[#072b5e]/10 text-[#072b5e]"><i
+                                    class="fas fa-bed"></i></span>
+                            Sleeps 4 Guests
+                        </li>
+                        <li class="flex items-center gap-3 text-slate-700">
+                            <span
+                                class="w-8 h-8 flex items-center justify-center rounded-lg bg-[#072b5e]/10 text-[#072b5e]"><i
+                                    class="fas fa-bath"></i></span>
+                            1 Bathroom (Shower & Bath)
+                        </li>
+                        <li class="flex items-center gap-3 text-slate-700">
+                            <span
+                                class="w-8 h-8 flex items-center justify-center rounded-lg bg-[#072b5e]/10 text-[#072b5e]"><i
+                                    class="fas fa-utensils"></i></span>
+                            Full Kitchen & Dining
+                        </li>
+                        <li class="flex items-center gap-3 text-slate-700">
+                            <span
+                                class="w-8 h-8 flex items-center justify-center rounded-lg bg-[#072b5e]/10 text-[#072b5e]"><i
+                                    class="fas fa-skiing"></i></span>
+                            Ski-in, Ski-out Access
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="opacity-0 translate-y-4 animate-fade-in" style="animation-delay: 0.25s;">
+                    <img src="./docs/assets/apartment/view.jpg" alt="Living room"
+                        class="gallery-item w-full md:h-[450px] h-auto  object-cover rounded-xl cursor-pointer"
+                        data-full="./docs/assets/apartment/view.jpg">
+                </div>
+
+            </div>
+
+            <div class="max-w-6xl mx-auto md:mt-10 mt-5 opacity-0 translate-y-4 animate-fade-in" style="animation-delay: 0.4s;">
+                <div class="grid md:grid-cols-4 grid-cols-2 gap-3">
+                    <div class="gallery-item overflow-hidden rounded-lg cursor-pointer group"
+                        data-full="./docs/assets/apartment/bathroom.jpg">
+                        <img src="./docs/assets/apartment/bathroom.jpg" alt="Bathroom"
+                            class="w-full h-40 md:h-50 object-cover transition-transform duration-500 group-hover:scale-110">
+                    </div>
+                    <div class="gallery-item overflow-hidden rounded-lg cursor-pointer group"
+                        data-full="./docs/assets/apartment/bedroom.jpg">
+                        <img src="./docs/assets/apartment/bedroom.jpg" alt="Bedroom"
+                            class="w-full h-40 md:h-50 object-cover transition-transform duration-500 group-hover:scale-110">
+                    </div>
+                    <div class="gallery-item overflow-hidden rounded-lg cursor-pointer group"
+                        data-full="./docs/assets/apartment/entrance.jpg">
+                        <img src="./docs/assets/apartment/entrance.jpg" alt="Bunk beds"
+                            class="w-full h-40 md:h-50 object-cover transition-transform duration-500 group-hover:scale-110">
+                    </div>
+                    <div class="gallery-item overflow-hidden rounded-lg cursor-pointer group"
+                        data-full="./docs/assets/apartment/kitchen.jpg">
+                        <img src="./docs/assets/apartment/kitchen.jpg" alt="Sink"
+                            class="w-full h-40 md:h-50 object-cover transition-transform duration-500 group-hover:scale-110">
+                    </div>
+                    <div class="gallery-item overflow-hidden rounded-lg cursor-pointer group"
+                        data-full="./docs/assets/apartment/lounge.jpg">
+                        <img src="./docs/assets/apartment/lounge.jpg" alt="Tiled wall"
+                            class="w-full h-40 md:h-50 object-cover transition-transform duration-500 group-hover:scale-110">
+                    </div>
+
+                    <div class="gallery-item overflow-hidden rounded-lg cursor-pointer group"
+                        data-full="./docs/assets/apartment/stairs.jpg">
+                        <img src="./docs/assets/apartment/stairs.jpg" alt="Staircase"
+                            class="w-full h-40 md:h-50 object-cover transition-transform duration-500 group-hover:scale-110">
+                    </div>
+                    <div class="gallery-item overflow-hidden rounded-lg cursor-pointer group"
+                        data-full="./docs/assets/apartment/toilet.jpg">
+                        <img src="./docs/assets/apartment/toilet.jpg" alt="Hallway"
+                            class="w-full h-40 md:h-50 object-cover transition-transform duration-500 group-hover:scale-110">
+                    </div>
+                    <div class="gallery-item overflow-hidden rounded-lg cursor-pointer group"
+                        data-full="./docs/assets/apartment/view.jpg">
+                        <img src="./docs/assets/apartment/view.jpg" alt="Loft interior"
+                            class="w-full h-40 md:h-50 object-cover transition-transform duration-500 group-hover:scale-110">
+                    </div>
+                </div>
+            </div>
+
+            <div id="lightbox"
+                class="fixed inset-0 z-[999] hidden items-center justify-center bg-black/0 transition-colors duration-300">
+                <button id="lightbox-close"
+                    class="absolute top-6 right-6 text-white text-3xl w-11 h-11 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 transition-colors duration-200">&times;</button>
+                <img id="lightbox-img" src="" alt=""
+                    class="max-w-[90vw] max-h-[85vh] rounded-lg object-contain scale-90 opacity-0 transition-all duration-300 shadow-2xl">
+            </div>
+        </section>
+
+        <style>
+            @keyframes fadeInUp {
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+
+            .animate-fade-in {
+                animation: fadeInUp 0.6s ease forwards;
+            }
+
+            .gallery-item {
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+            }
+
+            .gallery-item:hover {
+                transform: translateY(-3px);
+                box-shadow: 0 10px 25px rgba(7, 43, 94, 0.15);
+            }
+
+            #lightbox.active {
+                background-color: rgba(0, 0, 0, 0.85);
+            }
+
+            #lightbox.active #lightbox-img {
+                transform: scale(1);
+                opacity: 1;
+            }
+        </style>
+
+        <script>
+            const galleryItems = document.querySelectorAll('.gallery-item');
+            const lightbox = document.getElementById('lightbox');
+            const lightboxImg = document.getElementById('lightbox-img');
+            const lightboxClose = document.getElementById('lightbox-close');
+
+            function openLightbox(src) {
+                lightboxImg.src = src;
+                lightbox.classList.remove('hidden');
+                lightbox.classList.add('flex');
+                requestAnimationFrame(() => {
+                    lightbox.classList.add('active');
+                });
+                document.body.style.overflow = 'hidden';
+            }
+
+            function closeLightbox() {
+                lightbox.classList.remove('active');
+                document.body.style.overflow = '';
+                setTimeout(() => {
+                    lightbox.classList.add('hidden');
+                    lightbox.classList.remove('flex');
+                    lightboxImg.src = '';
+                }, 300);
+            }
+
+            galleryItems.forEach(item => {
+                item.addEventListener('click', () => {
+                    openLightbox(item.getAttribute('data-full'));
+                });
+            });
+
+            lightboxClose.addEventListener('click', closeLightbox);
+            lightbox.addEventListener('click', (e) => {
+                if (e.target === lightbox) closeLightbox();
+            });
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape') closeLightbox();
+            });
+        </script>
+
+
+        <section class="md:pb-24 pb-16 pt-8 pt-0 bg-white">
+            <div class="max-w-7xl mx-auto px-6 lg:px-8">
+
+                <div data-aos="fade-up"
+                    class="group flex flex-col lg:flex-row items-center justify-between gap-8 rounded-3xl bg-[#ebf2fb] border border-[#E4EBF6] px-8 lg:px-12 py-8 transition-all duration-500 ">
+
+                    <div class="flex md:items-center items-start md:flex-row flex-col gap-6">
+
+
+                        <img src="./docs/assets/Mountain-icon.png" class="h-14 opacity-80" alt="">
+
+                        <div>
+
+                            <h2 class="text-lg lg:text-xl font-semibold text-[#16396D] leading-tight">
+                                Your perfect mountain escape starts here.
+
+                            </h2>
+
+                            <p class="mt-2 text-gray-600">
+                                Relax, unwind and enjoy unforgettable views.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <a href="#"
+                        class="group/button inline-flex w-full md:w-auto items-center justify-center bg-[#072b5e] hover:bg-[#214A86] text-white px-8 py-3.5 rounded-lg transition-all duration-500 hover:shadow-xl hover:scale-105">
+
+                        Check availability
+
+                        <i
+                            class="fa-solid fa-arrow-right ml-3 transition-transform duration-500 group-hover/button:translate-x-2"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+        </section>
+
+
+    </main>
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://unpkg.com/lenis@1.3.1/dist/lenis.min.js"></script>
+    <script src="./docs/javascript/global.js"></script>
+    <script src="./docs/javascript/Navbar.js"></script>
+
+</body>
+
+</html>

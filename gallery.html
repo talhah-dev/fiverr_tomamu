@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Home</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.1/dist/lenis.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="stylesheet" href="./docs/Style.css" />
+
+</head>
+
+<body>
+
+
+    <main>
+        <div id="navbar"></div>
+
+
+        <section class="w-full md:py-16 py-10 lg:px-36 px-4 bg-white" id="gallery-section">
+            <div class="max-w-7xl mx-auto">
+
+                <div class="opacity-0 translate-y-4 animate-fade-in-gallery mb-8" style="animation-delay: 0.1s;">
+                    <h2 class="text-3xl md:text-4xl font-bold text-[#072b5e] mb-2">Gallery</h2>
+                    <p class="text-slate-500 ">A glimpse of life at Tomamu Alpha Village.</p>
+                </div>
+
+                <div class="grid md:grid-cols-3 grid-cols-2 gap-4">
+
+
+                    <div class="gallery-item-full overflow-hidden rounded-xl cursor-pointer group opacity-0 translate-y-4 animate-fade-in-gallery"
+                        style="animation-delay: 0.25s;" data-full="./docs/assets/gallery/gondola-station.jpg">
+                        <img src="./docs/assets/gallery/gondola-station.jpg" alt="The Village Alpha entrance"
+                            class="w-full md:h-66 h-40 object-cover transition-transform duration-500 group-hover:scale-110">
+                    </div>
+
+                    <div class="gallery-item-full overflow-hidden rounded-xl cursor-pointer group opacity-0 translate-y-4 animate-fade-in-gallery"
+                        style="animation-delay: 0.3s;" data-full="./docs/assets/gallery/hokkaido-map.jpg">
+                        <img src="./docs/assets/gallery/hokkaido-map.jpg" alt="Snowy forest path"
+                            class="w-full md:h-66 h-40 object-cover transition-transform duration-500 group-hover:scale-110">
+                    </div>
+
+                    <div class="gallery-item-full overflow-hidden rounded-xl cursor-pointer group opacity-0 translate-y-4 animate-fade-in-gallery"
+                        style="animation-delay: 0.35s;" data-full="./docs/assets/gallery/Ice-rink.jpg">
+                        <img src="./docs/assets/gallery/Ice-rink.jpg" alt="Indoor wave pool"
+                            class="w-full md:h-66 h-40 object-cover transition-transform duration-500 group-hover:scale-110">
+                    </div>
+
+                    <div class="gallery-item-full overflow-hidden rounded-xl cursor-pointer group opacity-0 translate-y-4 animate-fade-in-gallery"
+                        style="animation-delay: 0.4s;" data-full="./docs/assets/gallery/ice-village.jpg">
+                        <img src="./docs/assets/gallery/ice-village.jpg" alt="Village lounge interior"
+                            class="w-full md:h-66 h-40 object-cover transition-transform duration-500 group-hover:scale-110">
+                    </div>
+
+                    <div class="gallery-item-full overflow-hidden rounded-xl cursor-pointer group opacity-0 translate-y-4 animate-fade-in-gallery"
+                        style="animation-delay: 0.45s;" data-full="./docs/assets/gallery/icebar.jpg">
+                        <img src="./docs/assets/gallery/icebar.jpg" alt="Living room view"
+                            class="w-full md:h-66 h-40 object-cover transition-transform duration-500 group-hover:scale-110">
+                    </div>
+
+                    <div class="gallery-item-full overflow-hidden rounded-xl cursor-pointer group opacity-0 translate-y-4 animate-fade-in-gallery"
+                        style="animation-delay: 0.5s;" data-full="./docs/assets/gallery/mountain-cafe.jpg">
+                        <img src="./docs/assets/gallery/mountain-cafe.jpg" alt="Cozy window seating"
+                            class="w-full md:h-66 h-40 object-cover transition-transform duration-500 group-hover:scale-110">
+                    </div>
+
+                    <div class="gallery-item-full overflow-hidden rounded-xl cursor-pointer group opacity-0 translate-y-4 animate-fade-in-gallery"
+                        style="animation-delay: 0.55s;" data-full="./docs/assets/gallery/mountains.jpg">
+                        <img src="./docs/assets/gallery/mountains.jpg" alt="Mountain landscape"
+                            class="w-full md:h-66 h-40 object-cover transition-transform duration-500 group-hover:scale-110">
+                    </div>
+
+                    <div class="gallery-item-full overflow-hidden rounded-xl cursor-pointer group opacity-0 translate-y-4 animate-fade-in-gallery"
+                        style="animation-delay: 0.6s;" data-full="./docs/assets/gallery/night-ski.jpg">
+                        <img src="./docs/assets/gallery/night-ski.jpg" alt="Night skiing"
+                            class="w-full md:h-66 h-40 object-cover transition-transform duration-500 group-hover:scale-110">
+                    </div>
+
+                    <div class="gallery-item-full overflow-hidden rounded-xl cursor-pointer group opacity-0 translate-y-4 animate-fade-in-gallery"
+                        style="animation-delay: 0.65s;" data-full="./docs/assets/gallery/ski-shop.jpg">
+                        <img src="./docs/assets/gallery/ski-shop.jpg" alt="Ski shop"
+                            class="w-full md:h-66 h-40 object-cover transition-transform duration-500 group-hover:scale-110">
+                    </div>
+
+                    <div class="gallery-item-full overflow-hidden rounded-xl cursor-pointer group opacity-0 translate-y-4 animate-fade-in-gallery"
+                        style="animation-delay: 0.7s;" data-full="./docs/assets/gallery/sky-walk.jpg">
+                        <img src="./docs/assets/gallery/sky-walk.jpg" alt="Sky walk"
+                            class="w-full md:h-66 h-40 object-cover transition-transform duration-500 group-hover:scale-110">
+                    </div>
+
+                    <div class="gallery-item-full overflow-hidden rounded-xl cursor-pointer group opacity-0 translate-y-4 animate-fade-in-gallery"
+                        style="animation-delay: 0.15s;" data-full="./docs/assets/gallery/apartment.jpg">
+                        <img src="./docs/assets/gallery/apartment.jpg" alt="Village towers and slopes"
+                            class="w-full md:h-66 h-40 object-cover transition-transform duration-500 group-hover:scale-110">
+                    </div>
+
+                    <div class="gallery-item-full overflow-hidden rounded-xl cursor-pointer group opacity-0 translate-y-4 animate-fade-in-gallery"
+                        style="animation-delay: 0.2s;" data-full="./docs/assets/gallery/gondala.jpg">
+                        <img src="./docs/assets/gallery/gondala.jpg" alt="Gondola ride"
+                            class="w-full md:h-66 h-40 object-cover transition-transform duration-500 group-hover:scale-110">
+                    </div>
+
+                    <div class="gallery-item-full overflow-hidden rounded-xl cursor-pointer group opacity-0 translate-y-4 animate-fade-in-gallery"
+                        style="animation-delay: 0.75s;" data-full="./docs/assets/gallery/tomamu-map.jpg">
+                        <img src="./docs/assets/gallery/tomamu-map.jpg" alt="Tomamu map"
+                            class="w-full md:h-66 h-40 object-cover transition-transform duration-500 group-hover:scale-110">
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="lightbox-gallery"
+                class="fixed inset-0 z-[999] hidden items-center justify-center bg-black/0 transition-colors duration-300">
+                <button id="lightbox-gallery-close"
+                    class="absolute top-6 right-6 text-white text-3xl w-11 h-11 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 transition-colors duration-200">&times;</button>
+                <img id="lightbox-gallery-img" src="" alt=""
+                    class="max-w-[90vw] max-h-[85vh] rounded-lg object-contain scale-90 opacity-0 transition-all duration-300 shadow-2xl">
+            </div>
+        </section>
+
+        <style>
+            @keyframes fadeInUpGallery {
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+
+            .animate-fade-in-gallery {
+                animation: fadeInUpGallery 0.6s ease forwards;
+            }
+
+            .gallery-item-full {
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+            }
+
+            .gallery-item-full:hover {
+                transform: translateY(-4px);
+                box-shadow: 0 12px 28px rgba(7, 43, 94, 0.2);
+            }
+
+            #lightbox-gallery.active {
+                background-color: rgba(0, 0, 0, 0.85);
+            }
+
+            #lightbox-gallery.active #lightbox-gallery-img {
+                transform: scale(1);
+                opacity: 1;
+            }
+        </style>
+
+        <script>
+            const galleryFullItems = document.querySelectorAll('.gallery-item-full');
+            const lightboxGallery = document.getElementById('lightbox-gallery');
+            const lightboxGalleryImg = document.getElementById('lightbox-gallery-img');
+            const lightboxGalleryClose = document.getElementById('lightbox-gallery-close');
+
+            function openGalleryLightbox(src) {
+                lightboxGalleryImg.src = src;
+                lightboxGallery.classList.remove('hidden');
+                lightboxGallery.classList.add('flex');
+                requestAnimationFrame(() => {
+                    lightboxGallery.classList.add('active');
+                });
+                document.body.style.overflow = 'hidden';
+            }
+
+            function closeGalleryLightbox() {
+                lightboxGallery.classList.remove('active');
+                document.body.style.overflow = '';
+                setTimeout(() => {
+                    lightboxGallery.classList.add('hidden');
+                    lightboxGallery.classList.remove('flex');
+                    lightboxGalleryImg.src = '';
+                }, 300);
+            }
+
+            galleryFullItems.forEach(item => {
+                item.addEventListener('click', () => {
+                    openGalleryLightbox(item.getAttribute('data-full'));
+                });
+            });
+
+            lightboxGalleryClose.addEventListener('click', closeGalleryLightbox);
+            lightboxGallery.addEventListener('click', (e) => {
+                if (e.target === lightboxGallery) closeGalleryLightbox();
+            });
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape') closeGalleryLightbox();
+            });
+        </script>
+
+
+        <section class="md:pb-24 pb-16 md:pt-0 pt-8 bg-white">
+            <div class="max-w-7xl mx-auto px-6 lg:px-8">
+
+                <div data-aos="fade-up"
+                    class="group flex flex-col lg:flex-row items-center justify-between gap-8 rounded-3xl bg-[#ebf2fb] border border-[#E4EBF6] px-8 lg:px-12 py-8 transition-all duration-500 ">
+
+                    <div class="flex md:items-center items-start md:flex-row flex-col gap-6">
+
+
+                        <img src="./docs/assets/Mountain-icon.png" class="h-14 opacity-80" alt="">
+
+                        <div>
+
+                            <h2 class="text-lg lg:text-xl font-semibold text-[#16396D] leading-tight">
+                                Every season. Every view. Every memory.
+
+                            </h2>
+
+                            <p class="mt-2 text-gray-600">
+                                Tomamu is unforgettable. </p>
+
+                        </div>
+
+                    </div>
+
+                    <a href="#"
+                        class="group/button inline-flex w-full md:w-auto items-center justify-center bg-[#072b5e] hover:bg-[#214A86] text-white px-8 py-3.5 rounded-lg transition-all duration-500 hover:shadow-xl hover:scale-105">
+
+                        BOOK NOW
+
+                        <i
+                            class="fa-solid fa-arrow-right ml-3 transition-transform duration-500 group-hover/button:translate-x-2"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+        </section>
+
+
+    </main>
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://unpkg.com/lenis@1.3.1/dist/lenis.min.js"></script>
+    <script src="./docs/javascript/global.js"></script>
+    <script src="./docs/javascript/Navbar.js"></script>
+
+</body>
+
+</html>

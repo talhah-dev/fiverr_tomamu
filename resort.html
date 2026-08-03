@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Home</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.1/dist/lenis.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="stylesheet" href="./docs/Style.css" />
+
+</head>
+
+<body>
+
+
+    <main>
+        <div id="navbar"></div>
+
+        <section class="w-full md:py-16 py-10 px-4 bg-white" id="resort-section">
+            <div class="max-w-7xl mx-auto">
+
+                <div class="grid lg:grid-cols-[450px_1fr] gap-8 items-start md:mb-20 mb-12">
+                    <div class="opacity-0 translate-y-4 animate-fade-in-resort" style="animation-delay: 0.1s;">
+                        <h2 class="text-3xl md:text-4xl font-bold text-[#072b5e] mb-4">Resort Area</h2>
+                        <p class="text-slate-500 leading-relaxed mb-8">
+                            Tomamu is a world-class all-season resort in the heart of Hokkaido. Enjoy exceptional
+                            ski-in, ski-out access, powder-filled runs, and breathtaking scenery at every turn.
+                        </p>
+
+                        <div class="grid grid-cols-2 gap-5">
+                            <div class="feature-item">
+                                <span
+                                    class="w-10 h-10 flex items-center justify-center rounded-lg bg-[#072b5e]/10 text-[#072b5e] text-lg mb-2">
+                                    <i class="fas fa-person-skiing"></i>
+                                </span>
+                                <h3 class=" font-bold text-[#072b5e] mb-1">Ski-in, Ski-out</h3>
+                                <p class="text-sm text-slate-500 leading-relaxed">Direct access to the slopes</p>
+                            </div>
+                            <div class="feature-item">
+                                <span
+                                    class="w-10 h-10 flex items-center justify-center rounded-lg bg-[#072b5e]/10 text-[#072b5e] text-lg mb-2">
+                                    <i class="fas fa-mountain"></i>
+                                </span>
+                                <h3 class=" font-bold text-[#072b5e] mb-1">Great Terrain</h3>
+                                <p class="text-sm text-slate-500 leading-relaxed">For all levels and abilities</p>
+                            </div>
+                            <div class="feature-item">
+                                <span
+                                    class="w-10 h-10 flex items-center justify-center rounded-lg bg-[#072b5e]/10 text-[#072b5e] text-lg mb-2">
+                                    <i class="fas fa-utensils"></i>
+                                </span>
+                                <h3 class=" font-bold text-[#072b5e] mb-1">On-site Dining</h3>
+                                <p class="text-sm text-slate-500 leading-relaxed">Restaurants, cafes and shops</p>
+                            </div>
+                            <div class="feature-item">
+                                <span
+                                    class="w-10 h-10 flex items-center justify-center rounded-lg bg-[#072b5e]/10 text-[#072b5e] text-lg mb-2">
+                                    <i class="fas fa-spa"></i>
+                                </span>
+                                <h3 class=" font-bold text-[#072b5e] mb-1">Relax & Unwind</h3>
+                                <p class="text-sm text-slate-500 leading-relaxed">Onsen & wellness facilities</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="opacity-0 translate-y-4 animate-fade-in-resort overflow-hidden rounded-xl group"
+                        style="animation-delay: 0.25s;">
+                        <img src="./docs/assets/skiing/mountaincafe.jpg" alt="The Village Alpha entrance"
+                            class="w-full h-full min-h-[380px] object-cover transition-transform duration-700 group-hover:scale-105">
+                    </div>
+                </div>
+
+                <div class="grid lg:grid-cols-[1fr_1fr] gap-8">
+                    <div class="opacity-0 translate-y-4 animate-fade-in-resort" style="animation-delay: 0.4s;">
+                        <h3 class="text-lg font-bold text-[#072b5e] mb-4">Explore Tomamu</h3>
+                        <div class="grid md:grid-cols-3 grid-cols-2 gap-3">
+                            <div class="explore-item gallery-item-resort relative overflow-hidden rounded-lg cursor-pointer group"
+                                data-full="./docs/assets/village/alpha-village.jpeg">
+                                <img src="./docs/assets/village/alpha-village.jpeg" alt="Alpha Village"
+                                    class="w-full h-32 object-cover transition-transform duration-500 group-hover:scale-110">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent">
+                                </div>
+                                <span
+                                    class="absolute bottom-2 left-2 right-2 text-white text-[11px] font-semibold leading-tight">Alpha
+                                    Village</span>
+                            </div>
+
+                            <div class="explore-item gallery-item-resort relative overflow-hidden rounded-lg cursor-pointer group"
+                                data-full="./docs/assets/village/buffet.jpg">
+                                <img src="./docs/assets/village/buffet.jpg" alt="Buffet"
+                                    class="w-full h-32 object-cover transition-transform duration-500 group-hover:scale-110">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent">
+                                </div>
+                                <span
+                                    class="absolute bottom-2 left-2 right-2 text-white text-[11px] font-semibold leading-tight">Buffet</span>
+                            </div>
+
+                            <div class="explore-item gallery-item-resort relative overflow-hidden rounded-lg cursor-pointer group"
+                                data-full="./docs/assets/village/covered-walkways.jpg">
+                                <img src="./docs/assets/village/covered-walkways.jpg" alt="Covered Walkways"
+                                    class="w-full h-32 object-cover transition-transform duration-500 group-hover:scale-110">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent">
+                                </div>
+                                <span
+                                    class="absolute bottom-2 left-2 right-2 text-white text-[11px] font-semibold leading-tight">Covered
+                                    Walkways</span>
+                            </div>
+
+                            <div class="explore-item gallery-item-resort relative overflow-hidden rounded-lg cursor-pointer group"
+                                data-full="./docs/assets/village/farm-cafe.jpg">
+                                <img src="./docs/assets/village/farm-cafe.jpg" alt="Farm Cafe"
+                                    class="w-full h-32 object-cover transition-transform duration-500 group-hover:scale-110">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent">
+                                </div>
+                                <span
+                                    class="absolute bottom-2 left-2 right-2 text-white text-[11px] font-semibold leading-tight">Farm
+                                    Cafe</span>
+                            </div>
+
+                            <div class="explore-item gallery-item-resort relative overflow-hidden rounded-lg cursor-pointer group"
+                                data-full="./docs/assets/village/firepits.jpg">
+                                <img src="./docs/assets/village/firepits.jpg" alt="Firepits"
+                                    class="w-full h-32 object-cover transition-transform duration-500 group-hover:scale-110">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent">
+                                </div>
+                                <span
+                                    class="absolute bottom-2 left-2 right-2 text-white text-[11px] font-semibold leading-tight">Firepits</span>
+                            </div>
+
+                            <div class="explore-item gallery-item-resort relative overflow-hidden rounded-lg cursor-pointer group"
+                                data-full="./docs/assets/village/heated-pool.jpg">
+                                <img src="./docs/assets/village/heated-pool.jpg" alt="Heated Pool"
+                                    class="w-full h-32 object-cover transition-transform duration-500 group-hover:scale-110">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent">
+                                </div>
+                                <span
+                                    class="absolute bottom-2 left-2 right-2 text-white text-[11px] font-semibold leading-tight">Heated
+                                    Pool</span>
+                            </div>
+
+                            <div class="explore-item gallery-item-resort relative overflow-hidden rounded-lg cursor-pointer group"
+                                data-full="./docs/assets/village/hotalu-st.jpg">
+                                <img src="./docs/assets/village/hotalu-st.jpg" alt="Hotalu St"
+                                    class="w-full h-32 object-cover transition-transform duration-500 group-hover:scale-110">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent">
+                                </div>
+                                <span
+                                    class="absolute bottom-2 left-2 right-2 text-white text-[11px] font-semibold leading-tight">Hotalu
+                                    St</span>
+                            </div>
+
+                            <div class="explore-item gallery-item-resort relative overflow-hidden rounded-lg cursor-pointer group"
+                                data-full="./docs/assets/village/hotarubar.jpg">
+                                <img src="./docs/assets/village/hotarubar.jpg" alt="Hotaru Bar"
+                                    class="w-full h-32 object-cover transition-transform duration-500 group-hover:scale-110">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent">
+                                </div>
+                                <span
+                                    class="absolute bottom-2 left-2 right-2 text-white text-[11px] font-semibold leading-tight">Hotaru
+                                    Bar</span>
+                            </div>
+
+                            <div class="explore-item gallery-item-resort relative overflow-hidden rounded-lg cursor-pointer group"
+                                data-full="./docs/assets/village/hotarubarandcafe.jpg">
+                                <img src="./docs/assets/village/hotarubarandcafe.jpg" alt="Hotaru Bar and Cafe"
+                                    class="w-full h-32 object-cover transition-transform duration-500 group-hover:scale-110">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent">
+                                </div>
+                                <span
+                                    class="absolute bottom-2 left-2 right-2 text-white text-[11px] font-semibold leading-tight">Hotaru
+                                    Bar and Cafe</span>
+                            </div>
+
+                            <div class="explore-item gallery-item-resort relative overflow-hidden rounded-lg cursor-pointer group"
+                                data-full="./docs/assets/village/hotarufireplace.jpg">
+                                <img src="./docs/assets/village/hotarufireplace.jpg" alt="Hotaru Fireplace"
+                                    class="w-full h-32 object-cover transition-transform duration-500 group-hover:scale-110">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent">
+                                </div>
+                                <span
+                                    class="absolute bottom-2 left-2 right-2 text-white text-[11px] font-semibold leading-tight">Hotaru
+                                    Fireplace</span>
+                            </div>
+
+                            <div class="explore-item gallery-item-resort relative overflow-hidden rounded-lg cursor-pointer group"
+                                data-full="./docs/assets/village/hotarustreet.jpg">
+                                <img src="./docs/assets/village/hotarustreet.jpg" alt="Hotaru Street"
+                                    class="w-full h-32 object-cover transition-transform duration-500 group-hover:scale-110">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent">
+                                </div>
+                                <span
+                                    class="absolute bottom-2 left-2 right-2 text-white text-[11px] font-semibold leading-tight">Hotaru
+                                    Street</span>
+                            </div>
+
+                            <div class="explore-item gallery-item-resort relative overflow-hidden rounded-lg cursor-pointer group"
+                                data-full="./docs/assets/village/icebar.jpg">
+                                <img src="./docs/assets/village/icebar.jpg" alt="Ice Bar"
+                                    class="w-full h-32 object-cover transition-transform duration-500 group-hover:scale-110">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent">
+                                </div>
+                                <span
+                                    class="absolute bottom-2 left-2 right-2 text-white text-[11px] font-semibold leading-tight">Ice
+                                    Bar</span>
+                            </div>
+
+                            <div class="explore-item gallery-item-resort relative overflow-hidden rounded-lg cursor-pointer group"
+                                data-full="./docs/assets/village/Icerink.jpg">
+                                <img src="./docs/assets/village/Icerink.jpg" alt="Ice Rink"
+                                    class="w-full h-32 object-cover transition-transform duration-500 group-hover:scale-110">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent">
+                                </div>
+                                <span
+                                    class="absolute bottom-2 left-2 right-2 text-white text-[11px] font-semibold leading-tight">Ice
+                                    Rink</span>
+                            </div>
+
+                            <div class="explore-item gallery-item-resort relative overflow-hidden rounded-lg cursor-pointer group"
+                                data-full="./docs/assets/village/mountaincafe.jpg">
+                                <img src="./docs/assets/village/mountaincafe.jpg" alt="Mountain Cafe"
+                                    class="w-full h-32 object-cover transition-transform duration-500 group-hover:scale-110">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent">
+                                </div>
+                                <span
+                                    class="absolute bottom-2 left-2 right-2 text-white text-[11px] font-semibold leading-tight">Mountain
+                                    Cafe</span>
+                            </div>
+
+                            <div class="explore-item gallery-item-resort relative overflow-hidden rounded-lg cursor-pointer group"
+                                data-full="./docs/assets/village/pool.jpg">
+                                <img src="./docs/assets/village/pool.jpg" alt="Pool"
+                                    class="w-full h-32 object-cover transition-transform duration-500 group-hover:scale-110">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent">
+                                </div>
+                                <span
+                                    class="absolute bottom-2 left-2 right-2 text-white text-[11px] font-semibold leading-tight">Pool</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="opacity-0 translate-y-4 animate-fade-in-resort" style="animation-delay: 0.4s;">
+                        <h3 class="text-lg font-bold text-[#072b5e] mb-4">Ski Area</h3>
+                        <div class="grid md:grid-cols-3 grid-cols-2 gap-3">
+                            <div class="explore-item gallery-item-resort relative overflow-hidden rounded-lg cursor-pointer group"
+                                data-full="./docs/assets/skiing/alpha-ski.jpg">
+                                <img src="./docs/assets/skiing/alpha-ski.jpg" alt="Alpha Ski"
+                                    class="w-full h-32 object-cover transition-transform duration-500 group-hover:scale-110">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent">
+                                </div>
+                                <span
+                                    class="absolute bottom-2 left-2 right-2 text-white text-[11px] font-semibold leading-tight">Alpha
+                                    Ski</span>
+                            </div>
+
+                            <div class="explore-item gallery-item-resort relative overflow-hidden rounded-lg cursor-pointer group"
+                                data-full="./docs/assets/skiing/backcountry.jpg">
+                                <img src="./docs/assets/skiing/backcountry.jpg" alt="Backcountry"
+                                    class="w-full h-32 object-cover transition-transform duration-500 group-hover:scale-110">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent">
+                                </div>
+                                <span
+                                    class="absolute bottom-2 left-2 right-2 text-white text-[11px] font-semibold leading-tight">Backcountry</span>
+                            </div>
+
+                            <div class="explore-item gallery-item-resort relative overflow-hidden rounded-lg cursor-pointer group"
+                                data-full="./docs/assets/skiing/backcountry2.jpg">
+                                <img src="./docs/assets/skiing/backcountry2.jpg" alt="Backcountry 2"
+                                    class="w-full h-32 object-cover transition-transform duration-500 group-hover:scale-110">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent">
+                                </div>
+                                <span
+                                    class="absolute bottom-2 left-2 right-2 text-white text-[11px] font-semibold leading-tight">Backcountry
+                                    2</span>
+                            </div>
+
+                            <div class="explore-item gallery-item-resort relative overflow-hidden rounded-lg cursor-pointer group"
+                                data-full="./docs/assets/skiing/backcountry3.jpg">
+                                <img src="./docs/assets/skiing/backcountry3.jpg" alt="Backcountry 3"
+                                    class="w-full h-32 object-cover transition-transform duration-500 group-hover:scale-110">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent">
+                                </div>
+                                <span
+                                    class="absolute bottom-2 left-2 right-2 text-white text-[11px] font-semibold leading-tight">Backcountry
+                                    3</span>
+                            </div>
+
+                            <div class="explore-item gallery-item-resort relative overflow-hidden rounded-lg cursor-pointer group"
+                                data-full="./docs/assets/skiing/chairlift.jpg">
+                                <img src="./docs/assets/skiing/chairlift.jpg" alt="Chairlift"
+                                    class="w-full h-32 object-cover transition-transform duration-500 group-hover:scale-110">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent">
+                                </div>
+                                <span
+                                    class="absolute bottom-2 left-2 right-2 text-white text-[11px] font-semibold leading-tight">Chairlift</span>
+                            </div>
+
+                            <div class="explore-item gallery-item-resort relative overflow-hidden rounded-lg cursor-pointer group"
+                                data-full="./docs/assets/skiing/chair-run.jpg">
+                                <img src="./docs/assets/skiing/chair-run.jpg" alt="Chair Run"
+                                    class="w-full h-32 object-cover transition-transform duration-500 group-hover:scale-110">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent">
+                                </div>
+                                <span
+                                    class="absolute bottom-2 left-2 right-2 text-white text-[11px] font-semibold leading-tight">Chair
+                                    Run</span>
+                            </div>
+
+                            <div class="explore-item gallery-item-resort relative overflow-hidden rounded-lg cursor-pointer group"
+                                data-full="./docs/assets/skiing/gondola.jpg">
+                                <img src="./docs/assets/skiing/gondola.jpg" alt="Gondola"
+                                    class="w-full h-32 object-cover transition-transform duration-500 group-hover:scale-110">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent">
+                                </div>
+                                <span
+                                    class="absolute bottom-2 left-2 right-2 text-white text-[11px] font-semibold leading-tight">Gondola</span>
+                            </div>
+
+                            <div class="explore-item gallery-item-resort relative overflow-hidden rounded-lg cursor-pointer group"
+                                data-full="./docs/assets/skiing/groomers.jpg">
+                                <img src="./docs/assets/skiing/groomers.jpg" alt="Groomers"
+                                    class="w-full h-32 object-cover transition-transform duration-500 group-hover:scale-110">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent">
+                                </div>
+                                <span
+                                    class="absolute bottom-2 left-2 right-2 text-white text-[11px] font-semibold leading-tight">Groomers</span>
+                            </div>
+
+                            <div class="explore-item gallery-item-resort relative overflow-hidden rounded-lg cursor-pointer group"
+                                data-full="./docs/assets/skiing/learner-area.jpg">
+                                <img src="./docs/assets/skiing/learner-area.jpg" alt="Learner Area"
+                                    class="w-full h-32 object-cover transition-transform duration-500 group-hover:scale-110">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent">
+                                </div>
+                                <span
+                                    class="absolute bottom-2 left-2 right-2 text-white text-[11px] font-semibold leading-tight">Learner
+                                    Area</span>
+                            </div>
+
+                            <div class="explore-item gallery-item-resort relative overflow-hidden rounded-lg cursor-pointer group"
+                                data-full="./docs/assets/skiing/mountaincafe.jpg">
+                                <img src="./docs/assets/skiing/mountaincafe.jpg" alt="Mountain Cafe"
+                                    class="w-full h-32 object-cover transition-transform duration-500 group-hover:scale-110">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent">
+                                </div>
+                                <span
+                                    class="absolute bottom-2 left-2 right-2 text-white text-[11px] font-semibold leading-tight">Mountain
+                                    Cafe</span>
+                            </div>
+
+                            <div class="explore-item gallery-item-resort relative overflow-hidden rounded-lg cursor-pointer group"
+                                data-full="./docs/assets/skiing/powder.jpg">
+                                <img src="./docs/assets/skiing/powder.jpg" alt="Powder"
+                                    class="w-full h-32 object-cover transition-transform duration-500 group-hover:scale-110">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent">
+                                </div>
+                                <span
+                                    class="absolute bottom-2 left-2 right-2 text-white text-[11px] font-semibold leading-tight">Powder</span>
+                            </div>
+
+                            <div class="explore-item gallery-item-resort relative overflow-hidden rounded-lg cursor-pointer group"
+                                data-full="./docs/assets/skiing/resort-run.jpg">
+                                <img src="./docs/assets/skiing/resort-run.jpg" alt="Resort Run"
+                                    class="w-full h-32 object-cover transition-transform duration-500 group-hover:scale-110">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent">
+                                </div>
+                                <span
+                                    class="absolute bottom-2 left-2 right-2 text-white text-[11px] font-semibold leading-tight">Resort
+                                    Run</span>
+                            </div>
+
+                            <div class="explore-item gallery-item-resort relative overflow-hidden rounded-lg cursor-pointer group"
+                                data-full="./docs/assets/skiing/tree-runs.jpg">
+                                <img src="./docs/assets/skiing/tree-runs.jpg" alt="Tree Runs"
+                                    class="w-full h-32 object-cover transition-transform duration-500 group-hover:scale-110">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent">
+                                </div>
+                                <span
+                                    class="absolute bottom-2 left-2 right-2 text-white text-[11px] font-semibold leading-tight">Tree
+                                    Runs</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <div id="lightbox-resort"
+                class="fixed inset-0 z-[999] hidden items-center justify-center bg-black/0 transition-colors duration-300">
+                <button id="lightbox-resort-close"
+                    class="absolute top-6 right-6 text-white text-3xl w-11 h-11 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 transition-colors duration-200">&times;</button>
+                <img id="lightbox-resort-img" src="" alt=""
+                    class="max-w-[90vw] max-h-[85vh] rounded-lg object-contain scale-90 opacity-0 transition-all duration-300 shadow-2xl">
+            </div>
+        </section>
+
+        <style>
+            @keyframes fadeInUpResort {
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+
+            .animate-fade-in-resort {
+                animation: fadeInUpResort 0.6s ease forwards;
+            }
+
+            .feature-item {
+                opacity: 0;
+                transform: translateY(10px);
+                animation: fadeInUpResort 0.5s ease forwards;
+                transition: transform 0.3s ease;
+            }
+
+            .feature-item:hover {
+                transform: translateY(-3px);
+            }
+
+            .feature-item:nth-child(1) {
+                animation-delay: 0.3s;
+            }
+
+            .feature-item:nth-child(2) {
+                animation-delay: 0.38s;
+            }
+
+            .feature-item:nth-child(3) {
+                animation-delay: 0.46s;
+            }
+
+            .feature-item:nth-child(4) {
+                animation-delay: 0.54s;
+            }
+
+            .feature-item span {
+                transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+            }
+
+            .feature-item:hover span {
+                background-color: #072b5e;
+                color: #ffffff;
+                transform: scale(1.08);
+            }
+
+            .explore-item,
+            .ski-map-wrap {
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+            }
+
+            .explore-item:hover,
+            .ski-map-wrap:hover {
+                transform: translateY(-3px);
+                box-shadow: 0 10px 25px rgba(7, 43, 94, 0.18);
+            }
+
+            #lightbox-resort.active {
+                background-color: rgba(0, 0, 0, 0.85);
+            }
+
+            #lightbox-resort.active #lightbox-resort-img {
+                transform: scale(1);
+                opacity: 1;
+            }
+        </style>
+
+        <script>
+            const resortGalleryItems = document.querySelectorAll('.gallery-item-resort, .ski-map-wrap');
+            const lightboxResort = document.getElementById('lightbox-resort');
+            const lightboxResortImg = document.getElementById('lightbox-resort-img');
+            const lightboxResortClose = document.getElementById('lightbox-resort-close');
+
+            function openResortLightbox(src) {
+                lightboxResortImg.src = src;
+                lightboxResort.classList.remove('hidden');
+                lightboxResort.classList.add('flex');
+                requestAnimationFrame(() => {
+                    lightboxResort.classList.add('active');
+                });
+                document.body.style.overflow = 'hidden';
+            }
+
+            function closeResortLightbox() {
+                lightboxResort.classList.remove('active');
+                document.body.style.overflow = '';
+                setTimeout(() => {
+                    lightboxResort.classList.add('hidden');
+                    lightboxResort.classList.remove('flex');
+                    lightboxResortImg.src = '';
+                }, 300);
+            }
+
+            resortGalleryItems.forEach(item => {
+                item.addEventListener('click', () => {
+                    openResortLightbox(item.getAttribute('data-full'));
+                });
+            });
+
+            lightboxResortClose.addEventListener('click', closeResortLightbox);
+            lightboxResort.addEventListener('click', (e) => {
+                if (e.target === lightboxResort) closeResortLightbox();
+            });
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape') closeResortLightbox();
+            });
+        </script>
+
+        <section class="md:pb-24 pb-16 md:pt-0 pt-8 bg-white">
+            <div class="max-w-7xl mx-auto px-6">
+
+                <div data-aos="fade-up"
+                    class="group flex flex-col lg:flex-row items-center justify-between gap-8 rounded-3xl bg-[#ebf2fb] border border-[#E4EBF6] px-8 lg:px-12 py-8 transition-all duration-500 ">
+
+                    <div class="flex md:items-center items-start md:flex-row flex-col gap-6">
+
+
+                        <img src="./docs/assets/Mountain-icon.png" class="h-14 opacity-80" alt="">
+
+                        <div>
+
+                            <h2 class="text-lg lg:text-xl font-semibold text-[#16396D] leading-tight">
+                                Everything you need, all in one place.
+
+                            </h2>
+
+                            <p class="mt-2 text-gray-600">
+                                From adventure to relaxation, Tomamu has it all.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <a href="#"
+                        class="group/button inline-flex w-full md:w-auto items-center justify-center bg-[#072b5e] hover:bg-[#214A86] text-white px-8 py-3.5 rounded-lg transition-all duration-500 hover:shadow-xl hover:scale-105">
+
+                        PLAN YOUR STAY
+
+                        <i
+                            class="fa-solid fa-arrow-right ml-3 transition-transform duration-500 group-hover/button:translate-x-2"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+        </section>
+
+
+    </main>
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://unpkg.com/lenis@1.3.1/dist/lenis.min.js"></script>
+    <script src="./docs/javascript/global.js"></script>
+    <script src="./docs/javascript/Navbar.js"></script>
+
+</body>
+
+</html>
