@@ -18,7 +18,7 @@ navbar.innerHTML = `
                 <a href="/location.html" data-page="location" class="nav-link relative text-[#072b5e] hover:text-[#072b5e]/80 transition-colors duration-300 text-sm uppercase font-semibold pb-1">Location</a>
             </div>
             <div class="hidden lg:block">
-                <a href="#" class="inline-block bg-[#072b5e] text-white px-8 py-3 rounded font-medium uppercase hover:bg-[#072b5e]/85 transition-all duration-300">
+                <a href="#" onclick="openBookingModal(); return false;" class="inline-block bg-[#072b5e] text-white px-8 py-3 rounded font-medium uppercase hover:bg-[#072b5e]/85 transition-all duration-300">
                     Book Now
                 </a>
             </div>
@@ -37,7 +37,7 @@ navbar.innerHTML = `
             <a href="/resort.html" data-page="resort" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-slate-600 transition-colors duration-300 uppercase tracking-wider text-sm">The Resort</a>
             <a href="/gallery.html" data-page="gallery" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-slate-600 transition-colors duration-300 uppercase tracking-wider text-sm">Gallery</a>
             <a href="/location.html" data-page="location" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-slate-600 transition-colors duration-300 uppercase tracking-wider text-sm">Location</a>
-            <a href="#" class="block w-full text-center mt-4 bg-[#072b5e] text-white px-6 py-3 rounded text-sm font-bold uppercase tracking-wider hover:bg-[#072b5e]/85 transition-all duration-300">Book Now</a>
+            <a onclick="openBookingModal(); return false;" href="#" class="block w-full text-center mt-4 bg-[#072b5e] text-white px-6 py-3 rounded text-sm font-bold uppercase tracking-wider hover:bg-[#072b5e]/85 transition-all duration-300">Book Now</a>
         </div>
     </div>
 </nav>
