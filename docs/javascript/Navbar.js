@@ -10,7 +10,7 @@ navbar.innerHTML = `
                 </a>
             </div>
             <div class="hidden lg:flex items-center space-x-8">
-                <a href="/index.html" data-page="index" class="nav-link relative text-[#072b5e] hover:text-[#072b5e]/80 transition-colors duration-300 text-sm uppercase font-semibold pb-1">Home</a>
+                <a href="/" data-page="index" class="nav-link relative text-[#072b5e] hover:text-[#072b5e]/80 transition-colors duration-300 text-sm uppercase font-semibold pb-1">Home</a>
                 <a href="/apartment.html" data-page="apartment" class="nav-link relative text-[#072b5e] hover:text-[#072b5e]/80 transition-colors duration-300 text-sm uppercase font-semibold pb-1">The Apartment</a>
                 <a href="/amenities.html" data-page="amenities" class="nav-link relative text-[#072b5e] hover:text-[#072b5e]/80 transition-colors duration-300 text-sm uppercase font-semibold pb-1">Amenities</a>
                 <a href="/resort.html" data-page="resort" class="nav-link relative text-[#072b5e] hover:text-[#072b5e]/80 transition-colors duration-300 text-sm uppercase font-semibold pb-1">The Resort</a>
@@ -31,7 +31,7 @@ navbar.innerHTML = `
     </div>
     <div id="mobile-menu" class="lg:hidden overflow-hidden max-h-0 transition-all duration-500 ease-in-out bg-white">
         <div class="px-4 pt-2 pb-4 space-y-1">
-            <a href="/index.html" data-page="index" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-slate-600 transition-colors duration-300 uppercase tracking-wider text-sm">Home</a>
+            <a href="/" data-page="index" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-slate-600 transition-colors duration-300 uppercase tracking-wider text-sm">Home</a>
             <a href="/apartment.html" data-page="apartment" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-slate-600 transition-colors duration-300 uppercase tracking-wider text-sm">The Apartment</a>
             <a href="/amenities.html" data-page="amenities" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-slate-600 transition-colors duration-300 uppercase tracking-wider text-sm">Amenities</a>
             <a href="/resort.html" data-page="resort" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-slate-600 transition-colors duration-300 uppercase tracking-wider text-sm">The Resort</a>
