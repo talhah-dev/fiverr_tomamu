@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://tomamu.netlify.app/sitemap.xml
+Sitemap: https://tomamu-111.netlify.app/sitemap.xml
