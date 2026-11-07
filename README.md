@@ -48,7 +48,7 @@ Each page includes per-page meta tags in its `<head>`: unique `<title>`,
 `sitemap.xml` lists all six pages with lastmod, changefreq, and priority values, and is
 referenced by `robots.txt`.
 
-- Domain: `https://tomamu.com`
+- Domain: `https://tomamu.netlify.app`
 
 ## Project structure
 

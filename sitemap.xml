@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://tomamu.com/</loc>
-    <lastmod>2026-08-02</lastmod>
+    <loc>https://tomamu.netlify.app/</loc>
+    <lastmod>2026-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://tomamu.com/apartment.html</loc>
-    <lastmod>2026-08-02</lastmod>
+    <loc>https://tomamu.netlify.app/apartment.html</loc>
+    <lastmod>2026-11-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://tomamu.com/amenities.html</loc>
-    <lastmod>2026-08-02</lastmod>
+    <loc>https://tomamu.netlify.app/amenities.html</loc>
+    <lastmod>2026-11-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://tomamu.com/resort.html</loc>
-    <lastmod>2026-08-02</lastmod>
+    <loc>https://tomamu.netlify.app/resort.html</loc>
+    <lastmod>2026-11-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://tomamu.com/gallery.html</loc>
-    <lastmod>2026-08-02</lastmod>
+    <loc>https://tomamu.netlify.app/gallery.html</loc>
+    <lastmod>2026-11-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://tomamu.com/location.html</loc>
-    <lastmod>2026-08-02</lastmod>
+    <loc>https://tomamu.netlify.app/location.html</loc>
+    <lastmod>2026-11-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
